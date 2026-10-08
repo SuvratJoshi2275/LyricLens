@@ -1,0 +1,62 @@
+{
+  "best_epoch": 4,
+  "best_validation_ndcg": 0.07801920126220199,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.17710049034235958,
+      "recall": 0.07928571428571428,
+      "ndcg": 0.05759764748192568
+    },
+    {
+      "epoch": 2,
+      "loss": 0.16633133004488096,
+      "recall": 0.095,
+      "ndcg": 0.06673271619616337
+    },
+    {
+      "epoch": 3,
+      "loss": 0.12428293548881372,
+      "recall": 0.09428571428571429,
+      "ndcg": 0.06769039748348894
+    },
+    {
+      "epoch": 4,
+      "loss": 0.08289383298832305,
+      "recall": 0.09857142857142857,
+      "ndcg": 0.07801920126220199
+    },
+    {
+      "epoch": 5,
+      "loss": 0.04699840791318516,
+      "recall": 0.08071428571428571,
+      "ndcg": 0.06551402312474273
+    },
+    {
+      "epoch": 6,
+      "loss": 0.023316447706227855,
+      "recall": 0.09142857142857143,
+      "ndcg": 0.07405056227628196
+    },
+    {
+      "epoch": 7,
+      "loss": 0.012187300173804568,
+      "recall": 0.08357142857142857,
+      "ndcg": 0.06579882638508285
+    },
+    {
+      "epoch": 8,
+      "loss": 0.007028006276779662,
+      "recall": 0.07428571428571429,
+      "ndcg": 0.05713589130542167
+    }
+  ],
+  "model_path": "/Users/suvratsmacbookair/MyLocalFiles/LyricLens/artifacts/hybrid_model.pt",
+  "dataset_paths": {
+    "interactions": "/Users/suvratsmacbookair/MyLocalFiles/LyricLens/data/interactions.csv",
+    "user_features": "/Users/suvratsmacbookair/MyLocalFiles/LyricLens/data/user_features.csv",
+    "song_characteristics": "/Users/suvratsmacbookair/MyLocalFiles/LyricLens/data/song_characteristics.csv",
+    "lyric_embeddings": "/Users/suvratsmacbookair/MyLocalFiles/LyricLens/data/lyric_embeddings.csv",
+    "catalog": "/Users/suvratsmacbookair/MyLocalFiles/LyricLens/data/final_songs_FIXED.csv"
+  }
+}

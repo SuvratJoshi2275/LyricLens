@@ -1,0 +1,24 @@
+{
+  "paths": {
+    "/Users/suvratsmacbookair/Downloads/archive-3/artists.csv": {
+      "size": 5429571,
+      "mtime_ns": 1767366812000000000
+    },
+    "/Users/suvratsmacbookair/Downloads/archive-3/songs.csv": {
+      "size": 856462614,
+      "mtime_ns": 1767366818000000000
+    },
+    "/Users/suvratsmacbookair/Downloads/archive-4/cleaned_test_lyrics.csv": {
+      "size": 62781221,
+      "mtime_ns": 1712494064000000000
+    },
+    "/Users/suvratsmacbookair/Downloads/archive-4/cleaned_train_lyrics.csv": {
+      "size": 626550521,
+      "mtime_ns": 1712494086000000000
+    }
+  },
+  "chunk_size": 75000,
+  "max_rows_per_source_genre": 90,
+  "final_rows_per_genre": 180,
+  "schema_version": 3
+}
